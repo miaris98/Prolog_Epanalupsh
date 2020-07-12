@@ -29,3 +29,5 @@ decrypted_parts(Decrypted, Prefix, X, Y, Suffix, Final) :-
 cryp(Encrypted, Decrypted) :-
     encrypted_parts(Encrypted, Prefix, X, Y, Suffix, Final),
     decrypted_parts(Decrypted, Prefix, X, Y, Suffix, Final).
+    
+    % deite kai auto https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
